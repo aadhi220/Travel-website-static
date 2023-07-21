@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Solway', serif;
+    scroll-behavior: smooth;
+
+}
+body {
+    background-color:aliceblue;
+}
+
+
+img {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  
+    /* margin-top: 300px; */
+
+
+
+
+}
+
+.banner {
+    width: 100%;
+    height: 70vh;
+    
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+    
+    
+}
+.bannerh1 {
+    color: white;
+    position: absolute;
+    
+ margin-top: 250px;
+ 
+    
+    font-size: 10rem;
+    font-weight: 300;
+
+    
+
+
+    z-index: 2;
+    
+}
+.videobg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    object-fit:cover ;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 10vh;
+    margin-left: 50px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    
+}
+#logo {
+    color: white;
+    
+}
+.lists {
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+.links {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+   
+    position: relative;
+    
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+.card {
+    
+    width: 20%;
+    height: 80%;
+    
+    
+   
+
+}
+
+p {
+    text-align: justify;
+    width: 100%;
+    
+}
+
+.left {
+    margin-top: 5rem;
+    margin-right: 5rem;
+
+}
+
+.right {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.center {
+
+    margin-top:10rem;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 5rem;
+}
+
+.foot-head {
+    font-size:larger;
+
+}
+.copyright {
+    font-size: small;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+ul {
+    display: none;
+}
+
+}
